@@ -1,0 +1,41 @@
+{
+  "name": "kerouac-manifest",
+  "version": "0.0.0",
+  "description": "Web App Manifest middleware for Kerouac.",
+  "keywords": [
+    "manifest",
+    "browserconfig"
+  ],
+  "author": {
+    "name": "Jared Hanson",
+    "email": "jaredhanson@gmail.com",
+    "url": "http://www.jaredhanson.net/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jaredhanson/kerouac-manifest.git"
+  },
+  "bugs": {
+    "url": "http://github.com/jaredhanson/kerouac-manifest/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "js-yaml": "^3.10.0",
+    "xmlbuilder": "^9.0.4"
+  },
+  "devDependencies": {
+    "make-node": "^0.3.0",
+    "mocha": "^2.0.0",
+    "chai": "^3.0.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha test/*.test.js"
+  }
+}
