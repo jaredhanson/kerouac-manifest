@@ -1,6 +1,6 @@
 {
   "name": "kerouac-manifest",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Web App Manifest middleware for Kerouac.",
   "keywords": [
     "manifest",
